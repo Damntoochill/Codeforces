@@ -1,5 +1,6 @@
-s = list(map(int,input().split('+')))
-s.sort()
-s1 = ""
-s1 = "+".join(str(i) for i in s)
-print(s1)
+s = input()
+for i in range(len(s)):
+  if i == 0:
+    print(i.upper(),end = "")
+    continue
+  print(i,end="")
